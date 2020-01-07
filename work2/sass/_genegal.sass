@@ -1,0 +1,441 @@
+nav
+  height: 50px
+  background-color: #212121
+  position: fixed
+  z-index: 2
+  width: 100%
+
+header
+  position: relative
+
+.btn-white
+  width: 112px
+  height: 24px
+  background-color: #ffffff
+  color: #070716
+  font-size: 11px
+  font-weight: 400
+  text-transform: uppercase
+  border: none
+  display: block
+  margin: 0 auto 32px auto
+.header-white
+  color: #ffffff
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+  margin-bottom: 19px
+.subheader-white
+  text-align: center
+  color: #ffffff
+  font-size: 17px
+  font-weight: 400
+  margin-bottom: 189px
+.menu
+  padding: 13px 70px
+  margin: 0
+  list-style-type: none
+  display: flex
+  justify-content: space-between
+
+  &-link
+    color: #ffffff
+    font-size: 15px
+    font-weight: 300
+    &:hover
+      text-decoration: none
+      color: #808080
+  &-item
+    border-right: 2px dotted black
+    padding-right: 30px
+    &:last-child
+      border-right: none
+.hamburger
+  display: none
+
+.subheader
+  margin-top: 50px
+  position: absolute
+  width: 100%
+  height: 84px
+  background-color: rgba(0, 0, 0, 0.6)
+  &-logo
+    display: block
+    margin-top: 16px
+    max-width: 100%
+
+  &-official
+    border-top: 6px
+    color: rgba(256, 256, 256, 0.5)
+    font-size: 13px
+    font-weight: 400
+
+  &-text-1
+    text-align: center
+    margin-top: 18px
+    color: #ffffff
+    font-size: 12px
+    font-weight: 300
+
+
+  &-text-2
+    margin-top: 8px
+    text-align: center
+
+    a
+      text-align: center
+      color: #ffffff
+      font-size: 22px
+      line-height: 12px
+      font-weight: 400
+      text-transform: uppercase
+
+  &-btn
+    width: 172px
+    height: 46px
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+    border: none
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+    margin-top: 18px
+    border-radius: 4px
+    +btn-mixin
+
+    span
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+      color: #ffffff
+      font-size: 14px
+      font-weight: 400
+      text-transform: uppercase
+
+.promo
+  padding: 151px 0 135px 0
+  min-height: 800px
+  background: url("../img/bg.jpg") center (center / cover) no-repeat
+
+  &-header
+    text-align: center
+    color: #ffffff
+    font-size: 36px
+    font-weight: 400
+    text-transform: uppercase
+
+    span
+      font-size: 60px
+      font-weight: 700
+
+  &-subheader
+    color: #ffffff
+    font-size: 18px
+    font-weight: 400
+    text-align: center
+
+  &-btn
+    width: 259px
+    height: 63px
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+    border: none
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+    border-radius: 4px
+    display: block
+    margin: 118px auto 0 auto
+    padding: 0
+    +btn-mixin
+
+    span
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+      color: #ffffff
+      font-size: 18px
+      font-weight: 400
+      text-transform: uppercase
+
+.reason
+  min-height: 900px
+  padding: 71px 0 68px 0
+  &-img-bg
+    min-width: 113px
+    height: 113px
+    background-color: #1eacc7
+    border-radius: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-right: 26px
+
+  &-text
+    color: #202020
+    font-size: 15px
+    font-weight: 300
+    margin-right: 102px
+
+    span
+      color: #1eacc7
+      font-size: 17px
+      font-weight: 400
+
+  &-col
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 40px
+.btn
+  width: 112px
+  height: 24px
+  background-color: #000000
+  border: none
+  color: #ffffff
+  font-size: 11px
+  font-size: 11px
+  font-weight: 400
+  text-transform: uppercase
+  display: block
+  margin: 0 auto
+
+.header
+  color: #222222
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+  margin-top: 38px
+.mobile
+  min-height: 846px
+  padding: 48px 0 80px 0
+  background: url("../img/bg_1.jpg") center center/cover no-repeat
+  &-text
+    text-align: center
+    margin-top: 19px
+    margin-bottom: 32px
+  &-item
+    width: 320px
+    height: 280px
+    margin: 19px auto
+    padding-top: 92px
+    text-align: center
+    position: relative
+    &-1
+      background: url("../img/1-mobile.png") center center/cover no-repeat
+    &-2
+      background: url("../img/2-mobile.png") center center/cover no-repeat
+    &-3
+      background: url("../img/3-mobile.png") center center/cover no-repeat
+    &-4
+      background: url("../img/4-mobile.png") center center/cover no-repeat
+    &-5
+      background: url("../img/5-mobile.png") center center/cover no-repeat
+    &-6
+      background: url("../img/6-mobile.png") center center/cover no-repeat
+  &-subheader
+    color: #ffffff
+    font-size: 24px
+    font-weight: 400
+    text-transform: uppercase
+  &-plus
+    width: 26px
+    height: 26px
+    position: absolute
+    background-color: black
+    border-radius: 100%
+    bottom: 35px
+    left: 50%
+    transform: translateX(-50%)
+    cursor: pointer
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      height: 2px
+      width: 14px
+      background-color: #1eacc7
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      transition: 0.3s all
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      height: 14px
+      width: 2px
+      background-color: #1eacc7
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+      transition: 0.3s all
+    &:hover
+      &:after, &:before
+        background-color: red
+.option
+  background: url("../img/bg-option.jpg") center center/cover no-repeat
+  min-height: 900px
+  padding-top: 57px
+  position: relative
+  &-semicircle
+    position: absolute
+    z-index: 0
+    background-color: #1ca8c3
+    width: 583px
+    height: 270px
+    border-top-left-radius: 270px
+    border-top-right-radius: 270px
+    left: 50%
+    top: 290px
+    transform: translateX(-50%)
+    text-align: center
+    padding-top: 21px
+    color: #000
+    font-weight: 400
+    font-size: 16px
+    text-transform: uppercase
+    span
+      color: #ffffff
+      font-size: 40px
+      text-transform: none
+  &-car
+    display: flex
+    justify-content: center
+    position: relative
+  h4
+    color: #222222
+    font-size: 17px
+    font-weight: 300
+    text-align: center
+.require
+  padding: 68px 0 84px
+  min-height: 919px
+  &-block
+    margin: 33px 0
+    &-nmb
+      margin-bottom: 0
+  &-title
+    color: #1ca8c3
+    font-size: 22px
+    font-weight: 400
+  &-description
+    color: #1ca8c3
+    font-weight: 300
+  &-ul
+    color: #222222
+    font-size: 17px
+    font-weight: 300
+    margin-top: 22px
+    padding-left: 50px
+    list-style-type: none
+    li
+      margin-bottom: 10px
+      position: relative
+      &:before
+        content: ''
+        display: block
+        position: absolute
+        left: -32px
+        top: 4px
+        width: 21px
+        height: 20px
+        background: url("../icons/blue-chack.png") center center / cover no-repeat
+.warning
+  position: relative
+  .require-title
+    color: #ff5656
+  .require-ul
+    li
+      &:before
+        background: url("../icons/red-chack.png") center center / cover no-repeat
+.world
+  background: url("../img/bg-world.jpg") center center / cover no-repeat
+  min-height: 717px
+  padding: 49px 0
+  position: relative
+  &-link
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 49px
+    color: #1fbad6
+    font-size: 15px
+    font-weight: 400
+    line-height: 68px
+    text-transform: uppercase
+    &:hover
+      text-decoration: none
+      color: #ffffff
+
+footer
+  min-height: 156px
+  padding: 14px 0 39px
+  width: 100%
+  .line
+    width: 299px
+    height: 4px
+    background-color: #1fbad6
+    margin: 0 auto
+  .wrapper
+    margin-top: 32px
+    display: flex
+    justify-content: space-between
+    .social
+      width: 33%
+      display: flex
+      align-items: center
+      .img
+        margin: 0 5px
+        width: 32px
+        height: 32px
+        background-color: #000000
+        border-radius: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        i
+          color: #fff
+    .links
+      width: 34%
+      display: flex
+      flex-direction:  column
+      justify-content: space-around
+      &-first-row
+        display: flex
+        justify-content: space-between
+        &-item
+          color: #070716
+          font-size: 15px
+          font-weight: 300
+          text-transform: uppercase
+          cursor: pointer
+          &:hover
+            text-decoration: none
+            color: #000000
+      &-second-row
+        margin-top: 15px
+        display: flex
+        justify-content: space-between
+        &-item
+          color: #999999
+          font-size: 11px
+          font-weight: 300
+          text-transform: uppercase
+          cursor: pointer
+          &:hover
+            text-decoration: none
+            color: #000000
+      &-language
+        margin-top: 19px
+        display: flex
+        justify-content: center
+        color: #1fbad6
+        font-size: 11px
+        font-weight: 400
+        text-transform: uppercase
+        cursor: pointer
+        &:hover
+          text-decoration: none
+          color: #000000
+    .download
+      width: 33%
+      display: flex
+      align-items: center
+      justify-content: flex-end
+      &-img
+        cursor: pointer
+.xs-shown
+  display: none
